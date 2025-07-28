@@ -1,7 +1,11 @@
-#division by zero
-try:
-    result=10/0
-except ZeroDivisionError:
-    print("can't be divided by zero.")
+# #division by zero
+# try:
+#     result=10/0
+# except ZeroDivisionError:
+#     print("can't be divided by zero.")
 
-print("hello world")
+try:
+    mylist=[1,2,3]
+    print(mylist[5])
+except IndexError:
+    print("Index out of range")
