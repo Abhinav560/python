@@ -9,11 +9,6 @@
 #     print(mylist[5])
 # except IndexError:
 #     print("Index out of range")
-
-num=int(input("enter a number: "))
-if num>0: 
-    print("the number is positive")
-elif num==0:
-    print("number is zero")
-elif num<0:
-    print("the number is negative")
+with open("file1.txt","r") as f:
+          content=f.read()
+          print(content)
